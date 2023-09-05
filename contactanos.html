@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer center | Venta de componenetes para pc y laptop</title>
+  <script src="https://kit.fontawesome.com/90dea5a6b1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/styleForm.css" />
+  <link rel="shortcut icon" href="img/logoinvert.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <a href="index.html">
+        <img src="img/logoinvert.png" alt="logo" />
+        <h1><span>Computer </span><br />Center</h1>
+      </a>
+      <ul>
+        <li><a id="inicio" href="index.html">Inicio</a></li>
+        <li id="equipos">
+          <a href="equiposComputo.html">Equipos de Cómputo</a>
+          <ul class="subMenu">
+            <li>
+              <a href="equiposComputo.html#procesadores">Procesadores</a>
+            </li>
+            <li><a href="equiposComputo.html#ram">Memorias RAM</a></li>
+            <li><a href="equiposComputo.html#hdd">Memorias HDD</a></li>
+            <li><a href="equiposComputo.html#sdd">Memorias SDD</a></li>
+            <li><a href="equiposComputo.html#placa">Placa Madre</a></li>
+          </ul>
+        </li>
+        <li id="perifericos">
+          <a href="perifericos.html">Periféricos</a>
+          <ul class="subMenu perifericos">
+            <li><a href="perifericos.html#pantallas">Pantallas</a></li>
+            <li><a href="perifericos.html#teclados">Teclados</a></li>
+            <li><a href="perifericos.html#mouse">Mouse</a></li>
+          </ul>
+        </li>
+        <li id="impresoras">
+          <a href="impresorasSuministros.html">Impresoras y Suministros</a>
+          <ul class="subMenu impresoras">
+            <li><a href="impresorasSuministros.html#impresoras">Impresoras</a></li>
+            <li><a href="impresorasSuministros.html#cartuchos">Cartuchos</a></li>
+          </ul>
+        </li>
+        <li><a id="contactanos" href="contactanos.html">Contáctanos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 id="contactanos" class="titulo">Contáctanos</h1>
+    <form action="" class="formulario" id="formulario">
+
+      <!--Grupo: nombres-->
+      <div class="formulario__grupo" id="grupo__nombres">
+        <label for="nombres" class="formulario__label">Nombres</label>
+        <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="nombres" id="nombres" placeholder="Jhon">
+        </div>
+      </div>
+
+      <!--Grupo: apellidos-->
+      <div class="formulario__grupo" id="grupo__apellidos">
+        <label for="apellidos" class="formulario__label">Apellidos</label>
+        <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="apellidos" id="apellidos" placeholder="Doe">
+        </div>
+      </div>
+
+      <!--Grupo: correo-->
+      <div class="formulario__grupo" id="grupo__correo">
+        <label for="correo" class="formulario__label">Correo</label>
+        <div class="formulario__grupo-input">
+          <input type="email" class="formulario__input" name="correo" id="correo" placeholder="nombre@correo.com">
+        </div>
+      </div>
+
+      <!--Grupo: teléfono-->
+      <div class="formulario__grupo" id="grupo__telefono">
+        <label for="telefono" class="formulario__label">Teléfono</label>
+        <div class="formulario__grupo-input">
+          <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="981640632">
+        </div>
+        </p>
+      </div>
+
+      <!--Grupo: mensaje-->
+      <div class="formulario__grupo" id="grupo__mensaje">
+        <label for="mensaje" class="formulario__label">Mensaje</label>
+        <div class="formulario__grupo-input">
+          <textarea type="email" class="formulario__input" name="mensaje" id="mensaje"
+            placeholder="Contenido del mensaje"></textarea>
+        </div>
+      </div>
+
+      <!--Grupo: botón enviar-->
+      <div class="formulario__grupo formulario__grupo-btn-enviar">
+        <button type="submit" class="formulario__btn">Enviar</button>
+      </div>
+    </form>
+    <section>
+      <div class="animation-container">
+        <div class="lightning-container">
+          <div class="lightning azul"></div>
+          <div class="lightning gris"></div>
+        </div>
+      </div>
+      <div class="animation-container dos">
+        <div class="lightning-container">
+          <div class="lightning azul2"></div>
+          <div class="lightning gris2"></div>
+        </div>
+      </div>
+      <div class="animation-container tres">
+        <div class="lightning-container">
+          <div class="lightning azul3"></div>
+          <div class="lightning red3"></div>
+        </div>
+      </div>
+      <div class="animation-container cuatro">
+        <div class="lightning-container">
+          <div class="lightning azul4"></div>
+          <div class="lightning gris4"></div>
+        </div>
+      </div>
+      <div class="animation-container cinco">
+        <div class="lightning-container">
+          <div class="lightning azul5"></div>
+          <div class="lightning gris5"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__contenedor">
+      <a href="index.html" class="footer__logo">
+        <img src="img/logoinvert.png" alt="logo" />
+        <h2><span class="computer">Computer</span><br />Center</h2>
+      </a>
+      <div class="footer__redes">
+        <div class="footer__redcontent">
+          <a href="https://www.facebook.com" class="footer__ars" target="_blank">
+            <i class="fa-brands fa-facebook-f footer__imgrs"></i>
+          </a>
+        </div>
+        <div class="footer__redcontent">
+          <a href="https://www.twitter.com" class="footer__ars" target="_blank">
+            <i class="fa-brands fa-twitter footer__imgrs"></i>
+          </a>
+        </div>
+        <div class="footer__redcontent">
+          <a href="https://www.instagram.com" class="footer__ars" target="_blank">
+            <i class="fa-brands fa-instagram footer__imgrs"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer_contacto">
+        <h3>
+          ¡Disfruta de la experiencia Computer Center!<br />Visítanos en
+          <span class="footer__textsub">Av. Collasuyo 2692 Local 106</span>
+        </h3>
+      </div>
+      <div class="footer__contenedor">
+        <form action="">
+          <input type="text" placeholder="Ingresa tu correo" />
+          <button type="submit">Suscribirse</button>
+        </form>
+      </div>
+    </div>
+    <hr class="footer__hr" />
+    <div class="footer__contenedor-bajo">
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">Sobre nosotros</h3>
+        <ul class="footer__lista">
+          <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">
+          <a href="equiposComputo.html">Equipos de cómputo</a>
+        </h3>
+        <ul class="footer__lista">
+          <li><a href="equiposComputo.html#procesadores">Procesadores</a></li>
+          <li><a href="equiposComputo.html#ram">Memoria RAM</a></li>
+          <li><a href="equiposComputo.html#hdd">Memoria HDD</a></li>
+          <li><a href="equiposComputo.html#ssd">Memoria SSD</a></li>
+          <li><a href="equiposComputo.html#placa">Placa Madre</a></li>
+        </ul>
+      </div>
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">
+          <a href="perifericos.html">Periféricos</a>
+        </h3>
+        <ul class="footer__lista">
+          <li><a href="perifericos.html#pantallas">Pantallas</a></li>
+          <li><a href="perifericos.html#teclados">Teclados</a></li>
+          <li><a href="perifericos.html#mouse">Mouse</a></li>
+        </ul>
+      </div>
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">
+          <a href="impresorasSuministros.html">Impresoras y suministros</a>
+        </h3>
+        <ul class="footer__lista">
+          <li>
+            <a href="impresorasSuministros.html#impresoras">Impresoras</a>
+          </li>
+          <li>
+            <a href="impresorasSuministros.html#cartuchos">Cartuchos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">
+          <a href="contactanos.html">Contáctanos</a>
+        </h3>
+        <ul class="footer__lista">
+          <li>
+            <a href="contactanos.html">Trabaja con Nosotros</a>
+          </li>
+          <li>
+            <a href="contactanos.html">Consultas y Sugerencias</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__grupo">
+        <h3 class="footer__tituloh3">Atención al cliente</h3>
+        <a href="mailto:jhondoe@gmail.com">
+          <p>servicioalcliente@gmail.com</p>
+        </a>
+        <a href="mailto:jhondoe@gmail.com">
+          <p>reclamosatencionalcliente@gmail.com</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <div class="footer__derechosreservados">
+    <p>© 2023 Computer Center. Todos los derechos reservados</p>
+  </div>
+  <a href="https://whatsapp.com" target="_blank" >
+    <img src="img/whatsapp.png" alt="Whatsapp" class="whatsapp">
+  </a>
+
+  <script src="https://kit.fontawesome.com/90dea5a6b1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
